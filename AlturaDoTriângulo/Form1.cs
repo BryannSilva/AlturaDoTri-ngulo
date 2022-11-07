@@ -30,8 +30,9 @@ namespace AlturaDoTriângulo
             double n2 = double.Parse(txbN2.Value.ToString());
 
             // TextBoxResultado recebe o resultado da conta:
-            MessageBox.Show("Triângulo: " + (n1 * n2) / 2, "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information) ;                    
-           
+            MessageBox.Show("Triângulo: " + (n1 * n2) / 2, "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information) ;
+
+            //Fim.
 
         }
     }
